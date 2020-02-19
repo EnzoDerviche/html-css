@@ -1,0 +1,101 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Montserrat', 'sans-serif';
+}
+.nav-link{
+    color:black !important;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.nav-item{
+    width: 250px;
+    text-align: center;
+}
+.navbar{
+    padding: 0 0;
+    margin-top: 12px;
+}  
+.navbar-nav{
+    padding: 0 17% !important;
+}
+.active{
+    text-decoration: underline;
+}
+a{
+    font-size: 30px;
+}
+.contac{
+    font-size: 40px;
+}
+#contacto h1, #contacto p{
+    font-weight: 700;
+}
+#contacto h1{
+    font-size: 55px;
+}
+#contacto p{
+    font-size: 30px;
+}
+#contacto input[type=text], #contacto input[type=email], #contacto textarea{
+    background-color: #eeeeee;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    border:1px solid black;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    padding: 20px 400px;
+    text-align: center;
+}
+footer i{
+    font-size: 35px;
+    border: 1px solid;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 15px;
+}
+.linkedin{
+    color:black
+}
+.whats{
+    color: black;
+}
+.insta{
+    color: black;
+}
+footer {
+    background-color: white;
+    padding: 50px;
+}
+a{
+    color: black;
+    font-size: 23px;
+}
+@media (max-width: 700px) {/*para celulares*/
+    #contacto{
+        margin: 20px 0;
+    }
+    #contacto h1{
+        font-size: 45px;
+    }
+    #contacto h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+
+}
